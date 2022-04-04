@@ -1,6 +1,6 @@
 # 13 - Hello World
 
-by Anthony Fu (@antfu) #warm-up
+> by Anthony Fu (@antfu) #warm-up
 
 ### Question
 
@@ -26,6 +26,6 @@ Click the `Take the Challenge` button to start coding! Happy Hacking!
 
 ### Further Steps
 
-> Share your solutions: <https://tsch.js.org/13/answer>
-> View solutions: <https://tsch.js.org/13/solutions>
-> More Challenges: <https://tsch.js.org>
+- Share your solutions: <https://tsch.js.org/13/answer>
+- View solutions: <https://tsch.js.org/13/solutions>
+- More Challenges: <https://tsch.js.org>
