@@ -12,7 +12,7 @@
 
 /* _____________ 여기에 코드 입력 _____________ */
 
-type MyExclude<T, U extends T> = T extends U ? never : T;
+type MyExclude<T, U> = T extends U ? never : T;
 
 /* _____________ 테스트 케이스 _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";
