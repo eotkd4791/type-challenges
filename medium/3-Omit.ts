@@ -32,6 +32,14 @@ type MyOmit<T, K extends keyof T> = {
   [P in Exclude<keyof T, K>]: T[P];
 };
 
+/*
+ 
+type MyOmit<T, K extends keyof T> = {
+  [key in keyof T as key extends K ? never : key]: T[key]
+}
+
+*/
+
 /* _____________ 테스트 케이스 _____________ */
 import type { Equal, Expect } from "@type-challenges/utils";
 
